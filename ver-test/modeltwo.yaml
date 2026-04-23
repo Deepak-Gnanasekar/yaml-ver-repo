@@ -1,5 +1,5 @@
 # Visitran Model Version
-# Model: model
+# Model: modeltwo
 # Project: ver-test
 # Version: 7
 # Generated: 2026-04-23T20:46:51Z
@@ -8,14 +8,11 @@
 ---
 model:
   schema_name: ver
-  table_name: model
+  table_name: modeltwo
 presentation:
   hidden_columns:
   - '*'
-  sort:
-  - column: date
-    data_type: Time
-    order_by: DESC
+  sort: []
 reference: []
 source:
   materialization: TABLE
