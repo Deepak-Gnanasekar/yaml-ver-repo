@@ -1,5 +1,5 @@
 # Visitran Model Version
-# Model: model
+# Model: modelfour
 # Project: ver-test
 # Version: 23
 # Generated: 2026-04-26T18:06:28Z
@@ -8,13 +8,28 @@
 ---
 model:
   schema_name: ver
-  table_name: model
+  table_name: modelfour
 presentation:
   hidden_columns:
   - '*'
   sort:
   - column: date
     data_type: Time
+    order_by: ASC
+  - column: open
+    data_type: Number
+    order_by: ASC
+  - column: high
+    data_type: Number
+    order_by: ASC
+  - column: low
+    data_type: Number
+    order_by: ASC
+  - column: close
+    data_type: Number
+    order_by: ASC
+  - column: volume
+    data_type: Number
     order_by: ASC
 reference: []
 source:
