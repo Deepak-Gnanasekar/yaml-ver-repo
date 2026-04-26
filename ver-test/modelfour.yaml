@@ -1,5 +1,5 @@
 # Visitran Model Version
-# Model: model
+# Model: modelfour
 # Project: ver-test
 # Version: 18
 # Generated: 2026-04-26T16:55:17Z
@@ -8,7 +8,7 @@
 ---
 model:
   schema_name: ver
-  table_name: model
+  table_name: modelfour
 presentation:
   hidden_columns:
   - '*'
