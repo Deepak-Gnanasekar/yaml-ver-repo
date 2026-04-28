@@ -7,7 +7,7 @@ presentation:
   sort:
   - column: date
     data_type: Time
-    order_by: DSC
+    order_by: DESC
   - column: open
     data_type: Number
     order_by: ASC
